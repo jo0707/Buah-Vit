@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Buah Vit</string>
+    <string name="tampilkan_list">Tampilkan list</string>
+    <string name="tampilkan_grid">Tampilkan grid</string>
+
+    <string name="full_desc_example">
+        Apel adalah salah satu buah yang paling populer di seluruh dunia.
+            Berbagai penelitian setuju bahwa buah apel memiliki banyak manfaat menakjubkan yang baik untuk tubuh.
+            Bahkan, saking banyaknya manfaat buah ini bagi kesehatan, apel diklaim bisa menjauhkan Anda dari berbagai penyakit.
+            Alhasil, Anda jadi tak perlu sering-sering cek kesehatan ke dokter.\n\n
+        Pohon apel berasal dari bagian timur Eropa dan barat daya Asia.
+            Setelah beberapa abad kemudian, tanaman apel tersebar ke seluruh dunia,
+            menghasilkan berbagai varian yang mudah ditemukan baik di pasar tradisional maupun di supermarket.\n\n
+        Tak selalu merah, buah apel juga ada yang berwarna hijau atau kekuningan.
+            Rasa yang ditawarkan dari buah ini pun berbeda-beda.
+            Ada yang manis seperti madu, ada juga yang sepat walau sudah matang.
+            Apa pun warna dan rasanya, buah apel tetap mengandung nutrisi tinggi yang baik untuk tubuh Anda.\n\n
+        Konsumsi apel setiap hari dapat membantu meningkatkan kesehatan Anda karena kandungan serat,
+            vitamin, fitonutrien, serta antioksidan di dalamnya.
+            Kandungan nutrisi di dalam buah apel juga bisa mencegah Anda dari berbagai penyakit,
+            dan tentunya menjauhkan Anda dari keharusan berkunjung ke dokter karena sakit.
+    </string>
+    <string name="about_name">Joshua Sinaga</string>
+    <string name="credit">Aplikasi ini dibuat oleh :</string>
+    <string name="email">Email :</string>
+    <string name="email_value">josua123690707@gmail.com</string>
+    <string name="more">Lihat juga :</string>
+    <string name="ganti_wallpaper">Ganti Tema</string>
+</resources>

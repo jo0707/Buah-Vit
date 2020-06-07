@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_list_cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp"
+    android:backgroundTintMode="screen"
+    android:layout_margin="16dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:id="@+id/item_list_relLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/item_icon_container"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_marginEnd="16dp"
+            android:padding="6dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/rectangle_frame"
+            tools:src="@drawable/icon_apple" />
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:layout_toEndOf="@id/item_icon_container"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_title_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/quicksand_bold"
+                android:textColor="@color/dark_grey"
+                android:layout_weight="1"
+                tools:text="Apel" />
+
+            <TextView
+                android:id="@+id/item_shortDesc_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_grey"
+                android:lines="2"
+                android:ellipsize="end"
+                android:layout_weight="1"
+                tools:text="Pir merupakan buah yang kaya akan kandungan nutrisi seperti protein, serat, serta vitamin C dan K. Pir juga mengandung prebiotik yang mampu menjaga kesehatan usus"
+                />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_list"
+        android:title="@string/tampilkan_list"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_grid"
+        android:title="@string/tampilkan_grid"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_changeWallpaper"
+        android:title="@string/ganti_wallpaper"
+        android:icon="@drawable/icon_wallpaper"
+        app:showAsAction="never"/>
+
+</menu>
