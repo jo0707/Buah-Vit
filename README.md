@@ -36,5 +36,7 @@
 # Tambahan
   #### Aplikasi / project ini dibuat hanya sebagai referensi bagi yang sedang belajar di Dicoding. Jangan lakukan plagiasi karena sama saja tidak ada ilmu yang didapat.
   
+  Link kelas Dicoding : https://www.dicoding.com/academies/51
+  
 # Credit
   * ### Josua Sinaga 
