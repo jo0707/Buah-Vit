@@ -1,3 +1,7 @@
+/***
+ * Author : Joshua Sinaga
+ ***/
+
 package com.jo.buahvit
 
 import android.content.Intent
@@ -6,21 +10,16 @@ import android.os.Bundle
 import android.util.DisplayMetrics
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.ImageView
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
+import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.toolbar_main.*
 
-
+// USING KOTLIN SYNTHETIC
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var mainBackground: ImageView
-    private lateinit var mainRecyclerView: RecyclerView
-    private lateinit var mainToolbar: Toolbar
-    private lateinit var toolbarTitle: TextView
     private var fruitList   = FruitData.getFruitsList()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,14 +32,10 @@ class MainActivity : AppCompatActivity() {
         val scrHeight   = displayMetrics.heightPixels
         val scrWidth    = displayMetrics.widthPixels
 
-        mainBackground      = findViewById(R.id.main_background)
-        mainToolbar         = findViewById(R.id.main_toolbar)
-        mainRecyclerView    = findViewById(R.id.main_recyclerview)
         mainRecyclerView.setHasFixedSize(true)
 
         // setting toolbar
-        setSupportActionBar(mainToolbar)
-        toolbarTitle        = mainToolbar.findViewById(R.id.toolbar_title)
+        setSupportActionBar(mainToolbar as Toolbar)
         toolbarTitle.text   = resources.getText(R.string.app_name)
 
         supportActionBar?.setDisplayShowTitleEnabled(false)

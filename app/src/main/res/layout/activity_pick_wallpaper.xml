@@ -7,7 +7,7 @@
     tools:context=".PickWallpaperActivity">
 
     <ImageView
-        android:id="@+id/wallpaper_background"
+        android:id="@+id/wallpaperBackground"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
@@ -21,16 +21,16 @@
 
         <include
             layout="@layout/toolbar_main"
-            android:id="@+id/wallpaper_toolbar"
+            android:id="@+id/wallpaperToolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"/>
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/wallpaper_recyclerView"
+            android:id="@+id/wallpaperRc"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@id/wallpaper_toolbar"/>
+            android:layout_below="@id/wallpaperToolbar"/>
 
     </RelativeLayout>
 

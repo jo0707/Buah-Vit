@@ -1,3 +1,7 @@
+/***
+ * Author : Joshua Sinaga
+ ***/
+
 package com.jo.buahvit
 
 import android.annotation.SuppressLint
@@ -6,20 +10,18 @@ import android.graphics.Color
 import android.os.Bundle
 import android.util.DisplayMetrics
 import android.widget.ImageView
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import kotlinx.android.synthetic.main.activity_pick_wallpaper.*
+import kotlinx.android.synthetic.main.toolbar_main.*
 
+// USING KOTLIN SYNTHETIC
 class PickWallpaperActivity : AppCompatActivity() {
 
     private val wallpapersList  = WallpaperData.getWallpapersList()
 
-    private lateinit var wallpaperBackground: ImageView
-    private lateinit var wallpaperToolbar: Toolbar
-    private lateinit var toolbarTitle: TextView
-    private lateinit var wallpaperRc: RecyclerView
     private lateinit var goToMain: Intent
 
     @SuppressLint("SetTextI18n")
@@ -33,19 +35,14 @@ class PickWallpaperActivity : AppCompatActivity() {
         val scrHeight   = displayMetrics.heightPixels
         val scrWidth    = displayMetrics.widthPixels
 
-        wallpaperBackground = findViewById(R.id.wallpaper_background)
-        wallpaperToolbar = findViewById(R.id.wallpaper_toolbar)
-        toolbarTitle    = findViewById(R.id.toolbar_title)
-        wallpaperRc     = findViewById(R.id.wallpaper_recyclerView)
-
         wallpaperRc.setHasFixedSize(true)
-        setSupportActionBar(wallpaperToolbar)
+        setSupportActionBar(wallpaperToolbar as Toolbar)
         toolbarTitle.text   = "Tema"
 
         supportActionBar?.setDisplayShowTitleEnabled(false)
-        wallpaperToolbar.setNavigationIcon(R.drawable.icon_back)
+        (wallpaperToolbar as Toolbar).setNavigationIcon(R.drawable.icon_back)
 
-        wallpaperToolbar.setNavigationOnClickListener {
+        (wallpaperToolbar as Toolbar).setNavigationOnClickListener {
             goToMain    = Intent(this, MainActivity::class.java)
             finish()
             startActivity(goToMain)

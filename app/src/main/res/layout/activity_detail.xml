@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/detail_rootLayout"
+    android:id="@+id/detailRootLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context=".DetailActivity">
 
     <include
-        android:id="@+id/detail_toolbar"
+        android:id="@+id/toolbarDetail"
         layout="@layout/toolbar_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"/>
 
     <ScrollView
-        android:id="@+id/detail_scrollView"
+        android:id="@+id/detailScrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/detail_toolbar">
+        android:layout_below="@id/toolbarDetail">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,7 +35,7 @@
                 android:src="@drawable/blank"/>
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/detail_cardView"
+                android:id="@+id/detailCardView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="4dp">
@@ -48,7 +47,7 @@
                     android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/detail_title"
+                        android:id="@+id/detailTitle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -59,7 +58,7 @@
                         tools:text="Apel"/>
 
                     <ImageView
-                        android:id="@+id/detail_image"
+                        android:id="@+id/detailImage"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:adjustViewBounds="true"
@@ -69,7 +68,7 @@
                         tools:src="@drawable/real_apple"/>
 
                     <TextView
-                        android:id="@+id/detail_imageHint"
+                        android:id="@+id/detailImageHint"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="16dp"
@@ -78,7 +77,7 @@
                         tools:text="gambar dari buah Apel"/>
 
                     <TextView
-                        android:id="@+id/detail_desc"
+                        android:id="@+id/detailDesc"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="16dp"
@@ -88,7 +87,7 @@
                         tools:text="@string/full_desc_example"/>
 
                     <TextView
-                        android:id="@+id/detail_wiki"
+                        android:id="@+id/detailWiki"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:padding="8dp"
@@ -105,7 +104,7 @@
                         tools:text="Lihat buah Apel di Wikipedia (ilmiah)" />
 
                     <TextView
-                        android:id="@+id/detail_google"
+                        android:id="@+id/detailGoogle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:padding="8dp"

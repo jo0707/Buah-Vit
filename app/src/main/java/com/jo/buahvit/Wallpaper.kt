@@ -1,3 +1,7 @@
+/***
+ * Author : Joshua Sinaga
+ ***/
+
 package com.jo.buahvit
 
 data class Wallpaper (

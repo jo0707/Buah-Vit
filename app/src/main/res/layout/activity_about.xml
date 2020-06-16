@@ -8,7 +8,7 @@
     android:fitsSystemWindows="true">
 
     <ImageView
-        android:id="@+id/about_background"
+        android:id="@+id/aboutBackground"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
@@ -21,17 +21,17 @@
 
         <include
             layout="@layout/toolbar_main"
-            android:id="@+id/about_toolbar"
+            android:id="@+id/toolbarAbout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"/>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/about_cardView"
+            android:id="@+id/aboutCardView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@id/about_toolbar"
-            android:layout_above="@id/about_floor"
+            android:layout_below="@id/toolbarAbout"
+            android:layout_above="@id/aboutFloor"
             android:layout_margin="32dp">
 
         <LinearLayout
@@ -41,7 +41,7 @@
             android:gravity="center">
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/about_image"
+                android:id="@+id/aboutImageView"
                 android:layout_width="192dp"
                 android:layout_height="192dp"
                 android:layout_gravity="center"
@@ -105,7 +105,7 @@
                 android:gravity="center">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/about_facebook"
+                    android:id="@+id/aboutFacebookButton"
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_marginEnd="24dp"
@@ -119,7 +119,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/about_instagram"
+                    android:id="@+id/aboutInstagramButton"
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:layout_marginEnd="24dp"
@@ -133,7 +133,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/about_dicoding"
+                    android:id="@+id/aboutDicodingButton"
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     app:cardCornerRadius="2dp">
@@ -152,7 +152,7 @@
         </androidx.cardview.widget.CardView>
 
         <ImageView
-            android:id="@+id/about_floor"
+            android:id="@+id/aboutFloor"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:layout_alignParentBottom="true"/>
