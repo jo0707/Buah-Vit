@@ -13,13 +13,13 @@
     android:foreground="?android:attr/selectableItemBackground">
 
     <RelativeLayout
-        android:id="@+id/item_list_relLayout"
+        android:id="@+id/itemListRelLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="8dp">
 
         <ImageView
-            android:id="@+id/item_icon_container"
+            android:id="@+id/itemIconContainer"
             android:layout_width="82dp"
             android:layout_height="82dp"
             android:layout_marginEnd="16dp"
@@ -32,11 +32,11 @@
             android:layout_centerVertical="true"
             android:layout_width="match_parent"
             android:layout_height="82dp"
-            android:layout_toEndOf="@id/item_icon_container"
+            android:layout_toEndOf="@id/itemIconContainer"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/item_title_container"
+                android:id="@+id/itemTitleContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="24sp"
@@ -47,7 +47,7 @@
                 tools:text="Apel" />
 
             <TextView
-                android:id="@+id/item_shortDesc_container"
+                android:id="@+id/itemShortDescContainer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/dark_grey"

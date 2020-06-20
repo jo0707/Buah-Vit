@@ -11,14 +11,14 @@
     android:foreground="?android:attr/selectableItemBackground">
 
     <LinearLayout
-        android:id="@+id/item_grid_linLayout"
+        android:id="@+id/itemGridLinLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="16dp">
 
         <ImageView
-            android:id="@+id/item_icon_gcontainer"
+            android:id="@+id/itemIconGcontainer"
             android:layout_width="128dp"
             android:layout_height="128dp"
             android:layout_marginBottom="16dp"
@@ -28,7 +28,7 @@
             tools:src="@drawable/icon_apple"/>
 
         <TextView
-            android:id="@+id/item_title_gcontainer"
+            android:id="@+id/itemTitleGcontainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -40,7 +40,7 @@
             tools:text="Apel" />
 
         <TextView
-            android:id="@+id/item_shortDesc_gcontainer"
+            android:id="@+id/itemShortDescGcontainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"

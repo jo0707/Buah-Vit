@@ -8,10 +8,10 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.graphics.Color
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.DisplayMetrics
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
@@ -21,8 +21,8 @@ import kotlinx.android.synthetic.main.toolbar_main.*
 // USING KOTLIN SYNTHETIC
 class AboutActivity : AppCompatActivity(), View.OnClickListener {
 
-    private val facebookLink    = "https://www.facebook.com/raraaraaaraaaa/"
-    private val instagramLink   = "https://www.instagram.com/com.jooo.ig/"
+    private val facebookLink = "https://www.facebook.com/"
+    private val instagramLink = "https://www.instagram.com/com.jooo.ig/"
     private val dicodingLink    = "https://www.dicoding.com/users/799232/"
 
     @SuppressLint("SetTextI18n")
