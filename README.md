@@ -1,4 +1,4 @@
-# Buah-Vit
+<h1 align="center">Buah-Vit</h1>
   Buah Vit merupakan aplikasi yang menampilkan informasi tentang buah-buahan. 
   Aplikasi ini merupakan submission (tugas) untuk Dicoding kelas Belajar Membuat Aplikasi Android untuk Pemula.
   
