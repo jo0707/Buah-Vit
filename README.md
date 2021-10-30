@@ -4,11 +4,11 @@
   
 # Details
   * #### Made in
-  Android Studio versi 3.6
+    Android Studio versi 3.6
   * #### Language
-  Kotlin
+    Kotlin
   * #### Minimal API
-  21 (Android 5.0)
+    21 (Android 5.0)
   
 # Preview
   * ### Main Page
