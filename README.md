@@ -1,17 +1,17 @@
-<h1 align="center">Buah-Vit</h1>
-  Buah Vit merupakan aplikasi yang menampilkan informasi tentang buah-buahan. 
-  Aplikasi ini merupakan submission (tugas) untuk Dicoding kelas Belajar Membuat Aplikasi Android untuk Pemula.
+<h1 align="center">Buah Vit</h1>
+  Buah Vit is an application that displays information about fruits.
+  This application is a submission (assignment) for the Dicoding class Learn to Create Android Applications for Beginners.
   
-# Keterangan
-  * #### Dibuat di
+# Details
+  * #### Made in
   Android Studio versi 3.6
-  * #### Bahasa
+  * #### Language
   Kotlin
   * #### Minimal API
   21 (Android 5.0)
   
 # Preview
-  * ### Halaman Utama
+  * ### Main Page
      <img src="https://raw.githubusercontent.com/joSng/Buah-Vit/master/screenshoot/Main_list.png"
      width="23%" height="23%" style="float: left; margin-right: 10px;" />
      <img src="https://raw.githubusercontent.com/joSng/Buah-Vit/master/screenshoot/main_grid.png"
@@ -33,10 +33,10 @@
      <img src="https://raw.githubusercontent.com/joSng/Buah-Vit/master/screenshoot/about.png"
      width="23%" height="23%" style="float: left; margin-right: 10px;" />
      
-# Tambahan
-  #### Aplikasi / project ini dibuat hanya sebagai referensi bagi yang sedang belajar di Dicoding. Jangan lakukan plagiasi karena sama saja tidak ada ilmu yang didapat.
+# Note
+  #### This project is published only as a reference for friends, especially those who are studying at Dicoding. Do not plagiarize this project because there is no knowledge gained.  
   
-  Link kelas Dicoding : https://www.dicoding.com/academies/51
+  Link kelas Dicoding : [Belajar Membuat Aplikasi Android untuk Pemula](https://www.dicoding.com/academies/51)
   
 # Credit
   * ### Josua Sinaga 
