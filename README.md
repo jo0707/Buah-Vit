@@ -4,7 +4,7 @@
   
 # Details
   * #### Made in
-    Android Studio versi 3.6
+    Android Studio v3.6
   * #### Language
     Kotlin
   * #### Minimal API
@@ -36,7 +36,7 @@
 # Note
   #### This project is published only as a reference for friends, especially those who are studying at Dicoding. Do not plagiarize this project because there is no knowledge gained.  
   
-  Link kelas Dicoding : [Belajar Membuat Aplikasi Android untuk Pemula](https://www.dicoding.com/academies/51)
+  Dicoding class : [Belajar Membuat Aplikasi Android untuk Pemula](https://www.dicoding.com/academies/51)
   
 # Credit
   * ### Josua Sinaga 
